@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:3.8
+FROM lsiobase/nginx:3.9
 
 MAINTAINER romancin
 
