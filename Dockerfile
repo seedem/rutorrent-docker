@@ -28,7 +28,6 @@ RUN NB_CORES=${BUILD_CORES-`getconf _NPROCESSORS_CONF`} && \
         geoip \
         gzip \
         logrotate \
-        nginx \
         dtach \
         tar \
         unrar \
@@ -50,9 +49,6 @@ RUN NB_CORES=${BUILD_CORES-`getconf _NPROCESSORS_CONF`} && \
         zip \
         php7 \
         php7-cgi \
-        php7-fpm \
-        php7-json  \
-        php7-mbstring \
         php7-sockets \
         php7-pear \
 	python && \
